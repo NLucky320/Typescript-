@@ -53,3 +53,12 @@ let height = 5.5;
 // height ='tall'
 
 
+// Function & types
+
+function addN(a: number, b: number) {
+    return a + b;
+}
+
+function print(value: any) {
+    console.log(value)
+}
