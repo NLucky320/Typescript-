@@ -43,3 +43,13 @@ let people: {
     age: number;
 }[];
 
+
+//Type interface
+
+let course = 'React - The Complete Guide';
+
+course = 12
+
+let height = 5.5;
+
+height ='tall'
