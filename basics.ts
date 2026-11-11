@@ -22,12 +22,13 @@ hobbies= ['Sports', 'Cooking'];
 
 
 // let person;
-
-let person: {
+type Person = {
     name: string;
     age: number;
 
 };
+
+let person: Person;
 
 person = {
     name: 'Lucky',
@@ -38,10 +39,7 @@ person = {
 //     isEmployee: true
 // }
 
-let people: {
-    name: string;
-    age: number;
-}[];
+let people: Person[];
 
 
 //Type interface
