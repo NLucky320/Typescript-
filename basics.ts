@@ -46,10 +46,12 @@ let people: {
 
 //Type interface
 
-let course = 'React - The Complete Guide';
+let course: string | number = 'React - The Complete Guide';
 
-course = 12
+course = 12341;
 
 let height = 5.5;
 
-height ='tall'
+// height ='tall'
+
+
